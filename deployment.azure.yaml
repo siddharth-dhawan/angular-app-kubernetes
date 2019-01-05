@@ -18,7 +18,7 @@ spec:
         ports: 
         - containerPort: 80 
      imagePullSecrets:
-      - name: acr-auth
+      - name: acr-secret
 --- 
 # https://kubernetes.io/docs/concepts/services-networking/service/#defining-a-service  
 kind: Service 
